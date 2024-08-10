@@ -123,7 +123,7 @@ header{
 .donate-plan-section{
     width: 1130px;
     height: 532px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     align-items: center;
     justify-content: center;
     display: flex;
@@ -133,7 +133,7 @@ header{
     width: 691px;
     height: 130px;
     margin: 0px 0px 45px 0px;
-    border: 2px solid rgb(120, 205, 17);
+    /* border: 2px solid rgb(120, 205, 17); */
     text-align: center;
 }
 .our-donate-title{
@@ -153,7 +153,7 @@ header{
 .donate-card{
     width: 360px;
     height: 320px;
-    border: 2px solid fuchsia;
+    /* border: 2px solid fuchsia; */
     
 }
 .donate-card img{
@@ -213,5 +213,25 @@ header{
     }
     #other{
         margin-top: 20px;
+    }
+
+    /* plne */
+    .donate-plan-section {
+        width: auto;
+        height: auto;
+    }
+    .our-donate-title {
+        font-size: 40px;
+    }
+    .our-donate-item{
+        width: auto;
+        height: auto;
+    }
+    .our-donate-card{
+        flex-direction: column;
+    }
+    .donate-card{
+        width: auto;
+        height: auto;
     }
 }
