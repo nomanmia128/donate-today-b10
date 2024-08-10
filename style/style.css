@@ -1,0 +1,147 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+    margin: 50px 130px 50px 130px;
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header{
+    width: 1440px;
+    height: 669px;
+    border: 2px solid forestgreen;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+     background-color: rgba(0,0,0,0.4);
+    background-image:  linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),url(/images/donation0.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+/* */
+.banner-section{
+    width: 826px;
+    height: 320px;
+    border: 2px solid fuchsia;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    color: white;
+}
+.banner-deicripton{
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    color: white;
+}
+.donet-btn{
+    padding: 16px 12px 16px 12px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(255, 89, 89);
+}
+
+/* donate today */
+
+.donate-section{
+    width: 1440px;
+    border: 2px solid slategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.donate-today{
+    width: 765px;
+    height: 500px;
+    border: 2px solid lightcoral;
+    text-align: center;
+}
+.donate-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.donate-discription{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.taka-btn{
+    font-size: 30px;
+    font-weight: 800;
+    width: 135px;
+    height: 123px;
+    margin: 0px 6px 90px 6px;
+    border-radius: 5px;
+    background: rgb(236, 235, 235);
+    border: none;
+    cursor: pointer;
+}
+.taka-btn:hover{
+    border: 2px solid rgb(255, 89, 89);
+    border-radius: 5px;
+    color: rgb(255, 89, 89);
+    background: rgb(255, 238, 238);
+    cursor: pointer;
+}
+.btn{
+    margin-top: 30px;
+}
+#other{
+    margin-bottom: 10px;
+    color: rgb(165, 168, 165);
+}
+/* rrrrrrrrrrr */
+@media screen and (max-width: 576px) {
+    body{
+        margin: 30px 20px;
+    }
+    header{
+        width: auto;
+        height: 400px;
+    }
+    .banner-section{
+        width: 90%;
+    
+    }
+    .banner-title{
+        font-size: 34px;
+    }
+    /* donate */
+    .donate-section{
+        width: auto;
+        margin-top: 20px;
+    }
+    .donate-today{
+        height: auto;
+    }
+    .taka-btn{
+        font-size: 24px;
+        width: 95px;
+        height: 80px;
+        margin: 0px 5px 10px 5px;
+    }
+    #other{
+        margin-top: 20px;
+    }
+}
