@@ -194,14 +194,13 @@ header{
 .your-donation-section{
     width: 1032px;
     height: 477px;
-    border: 2px solid teal;
+    /* border: 2px solid teal; */
     display: flex;
     /* margin: ; */
 }
 .text-contant{
     width: 493px;
     height: 374px;
-    border: solid fuchsia;
     margin: 52px 94px 52px 0px;
 }
 .text-contant h3{
@@ -229,7 +228,6 @@ header{
 .img-contant{
     width: 456px;
     height: 477px;
-    border: 2px solid red;
 }
 .img-contant img{
     width: 100%;
