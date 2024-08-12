@@ -1,6 +1,10 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+
+/* google foont2 */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -191,30 +195,38 @@ header{
     justify-content: center;
     margin-top: 110px;
 }
-.your-donation-section{
+.your-donation-section,
+.your-donation-section2{
     width: 1032px;
     height: 477px;
     /* border: 2px solid teal; */
     display: flex;
-    /* margin: ; */
 }
 .text-contant{
     width: 493px;
     height: 374px;
     margin: 52px 94px 52px 0px;
 }
-.text-contant h3{
+.text-contant2{
+    width: 493px;
+    height: 374px;
+    margin: 52px 0px 52px 94px;
+}
+.text-contant h3,
+.text-contant2 h3{
     font-size: 55px;
     font-weight: 700;
     padding-bottom: 20px;
 }
-.text-contant p{
+.text-contant p,
+.text-contant2 p{
     font-size: 18px;
     font-weight: 400;
     color: rgb(112, 112, 112);
     padding-bottom: 20px;
 }
-.text-contant button{
+.text-contant button,
+.text-contant2 button{
     font-size: 20px;
     font-weight: 600;
     color: rgb(255, 255, 255);
@@ -233,6 +245,89 @@ header{
     width: 100%;
     height: 100%;
 }
+
+/* Get-updates */
+.get-updates-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Get-updates{
+    width: 691px;
+    height: 130px;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+.Get-updates h3{
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.Get-updates p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.email-contant{
+    width: 809px;
+    height: 200px;
+    background: rgb(255, 244, 214);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.email{
+    width: 275px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    background: rgb(217, 217, 217);
+}
+.submit{
+    width: 157px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+    background: rgb(255, 89, 89);
+}
+
+/* footer */
+footer{
+    width: 1440px;
+    height: 178px;
+    background: rgb(11, 13, 23);
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.humble{
+    width: 158px;
+    height: 92px;
+    text-align: center;
+}
+.humble h4{
+    font-family: "Lobster", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: rgb(255, 89, 89);
+    padding-bottom: 20px;
+}
+.humble p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(217, 219, 225);
+}
+
 /* rrrrrrrrrrr */
 @media screen and (max-width: 576px) {
     body{
@@ -298,7 +393,13 @@ header{
         height: auto;
         flex-direction: column-reverse;
     }
-    .text-contant {
+    .your-donation-section2{
+        width: auto;
+        height: auto;
+        flex-direction: column;
+    }
+    .text-contant,
+    .text-contant2 {
         width: auto;
         height: auto;
         margin: 30px 0px;
@@ -307,8 +408,34 @@ header{
         width: auto;
         height: auto;
     }
-    .text-contant h3 {
+    .text-contant h3,
+    .text-contant2 h3 {
         font-size: 36px;
+    }
+
+    /* --- */
+    .Get-updates{
+        width: auto;
+        height: auto;
+        margin-top: 0px;
+    }
+    .email-contant{
+        width: 100%;
+        padding: 0px 30px;
+    }
+    .email{
+        width: 75%;
+        height: 35px;
+    }
+    .submit{
+        width: 35%;
+        height: 35px;
+    }
+
+    /* Footer */
+    footer{
+        width: auto;
+        margin-top: 30px;
     }
 }
 
