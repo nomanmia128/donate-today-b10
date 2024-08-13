@@ -13,7 +13,7 @@
 
 body{
     font-family: "Inter", sans-serif;
-    margin: 50px 130px 50px 130px;
+     margin: 50px 130px 50px 130px;
      width: 1440px;
      border: 2px solid lawngreen;
 }
@@ -28,8 +28,8 @@ header{
     text-align: center;
     display: flex;
     flex-direction: column;
-     background-color: rgba(0,0,0,0.4);
-    background-image:  linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),url(/images/donation0.jpg);
+    background-color: rgba(0,0,0,0.4);
+    background-image:  linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),url(../images/donation2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
